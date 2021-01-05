@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="前程贷">
+    <test verbose="2" preserve-order="true" name="D:/IdeaWorkspace/java24/api_auto_test">
+        <classes>
+            <class name="com.test.lemon.cases.RegisterTest"/>
+            <class name="com.test.lemon.cases.LoginTest"/>
+            <class name="com.test.lemon.cases.GetUserInfoTest"/>
+            <class name="com.test.lemon.cases.RechargeTest"/>
+            <class name="com.test.lemon.cases.AddLoanTest"/>
+            <class name="com.test.lemon.cases.AuditLoanTest"/>
+            <class name="com.test.lemon.cases.InvestTest"/>
+        </classes>
+    </test>
+</suite>
